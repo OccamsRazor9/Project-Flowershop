@@ -1,14 +1,29 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
-*.VC.db
-*.opensdf
-*.opendb
-*.sdf
+# Unreal Engine - Ignore these folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# IDEs and editor files
+.vscode/
 *.sln
 *.suo
-*.xcodeproj
-*.xcworkspace
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# Compiled and temp files
+*.log
+*.tlog
+*.obj
+*.pch
+*.pdb
+*.exe
+*.dll
+*.app
+*.dylib
+
+# OS junk
+.DS_Store
+Thumbs.db
